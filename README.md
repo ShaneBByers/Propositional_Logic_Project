@@ -8,11 +8,17 @@ TO RUN:
 >  python -i propositional_logic.py
 >  Create a propositional logic statement using:
 >>    Atom("variable_name")
+
 >>    Not(Expression)
+
 >>    And(Expression)
+
 >>    Or(Expression)
+
 >>    Implies(Expression)
+
 >>    Iff(Expression)
+
 >  Convert statement to Conjunctive Normal Form (CNF):
 >>    statement_variable.to_cnf()
 >  Evaluate expression with assignments:
